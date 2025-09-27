@@ -1,6 +1,6 @@
 # VibCogTriNet
 
-[**简体中文 (Chinese Simplified)**](./README.md) | [**English**](./README_EN.md) | [**Tiếng Việt (Vietnamese)**](./README_VN.md)
+[**Chinese Simplified(简体中文)**](./README.md) | [**English**](./README_EN.md) | [**Vietnamese(Tiếng Việt)**](./README_VN.md)
 
 VibCogTriNet is a deep learning model designed for bearing fault detection based on vibration waveforms. The model integrates **time-domain**, **frequency-domain**, and **statistical features** of bearing vibration signals, and makes a comprehensive judgment on the type of fault. This model and its design scheme were used in the **2025 Huawei Cup Graduate Mathematical Modeling Contest**. All datasets used for model training were officially provided by the competition organizers.
 
