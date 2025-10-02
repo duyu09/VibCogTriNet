@@ -1,8 +1,8 @@
 # VibCogTriNet
 
-[**Tiếng Trung Giản Thể (简体中文)**](./README.md) | [**Tiếng Anh (English)**](./README_EN.md) | [**Tiếng Việt**](./README_VN.md)
+[**Tiếng Trung Phồn Thể(繁體中文)**](./README.md) | [**Tiếng Anh(English)**](./README_EN.md) | [**Tiếng Việt**](./README_VN.md)
 
-**VibCogTriNet** là một mô hình học sâu có thể nhận dạng sóng rung của ổ bi để phát hiện lỗi ổ bi. Mô hình dựa trên sự kết hợp ba loại đặc trưng: miền thời gian, miền tần số và đặc trưng thống kê của sóng rung ổ bi, từ đó xác định loại lỗi ổ bi. Mô hình và phương án thiết kế này đã được sử dụng để tham gia Cuộc thi mô hình hóa toán học dành cho nghiên cứu sinh Cúp Hoa Vi (Huawei) năm 2025, toàn bộ tập dữ liệu huấn luyện mô hình được cung cấp bởi ban tổ chức cuộc thi.
+**VibCogTriNet** là một mô hình học sâu có thể nhận dạng sóng rung của ổ bi để phát hiện lỗi ổ bi. Mô hình dựa trên sự kết hợp ba loại đặc trưng: miền thời gian, miền tần số và đặc trưng thống kê của sóng rung ổ bi, từ đó xác định loại lỗi ổ bi. Mô hình và phương án thiết kế này đã được sử dụng để tham gia Cuộc thi mô hình hóa toán học dành cho nghiên cứu sinh Cúp Hoa Vi(Tiếng Trung: 華為杯; Tiếng Anh: Huawei Cup) năm 2025, toàn bộ tập dữ liệu huấn luyện mô hình được cung cấp bởi ban tổ chức cuộc thi.
 
 ---
 
@@ -32,9 +32,9 @@ Bằng phương pháp quy kết gradient, ta tính toán gradient tại tầng k
 
 ---
 
-### **Kết quả thí nghiệm loại bỏ (Ablation study):**
+### **Thí nghiệm Loại bỏ**
 
-| Mô hình                        | Độ chính xác | F1-score     |
+| Mô hình                        | Accuracy     | F1-score     |
 | ------------------------------ | ------------ | ------------ |
 | ***VibcogTriNet***             | ***0.9969*** | ***0.9538*** |
 | VibcogTriNet-no-Transformer    | 0.9812       | 0.9501       |
@@ -43,14 +43,6 @@ Bằng phương pháp quy kết gradient, ta tính toán gradient tại tầng k
 
 ---
 
-### **Tác giả dự án**
+### **Tác giả Dự án**
 
-**BẢN QUYỀN © 2025**
-
-**HÀ Phi Phàm** (Tiếng Trung Giản Thể: 何非凡; Tiếng Anh: HE Feifan)、
-
-**ĐỖ Vũ** (Tiếng Trung Giản Thể: 杜宇; Tiếng Anh: DU Yu)、
-
-**DƯƠNG Sa Sa** (Tiếng Trung Giản Thể: 杨莎莎; Tiếng Anh: YANG Shasha)，
-
-**Đại Học Giao thông Lan Châu, Học Viện Điện Tử Và Công Nghệ Thông Tin** (Tiếng Trung Giản Thể: 兰州交通大学电子与信息工程学院; Tiếng Anh: School of Electronic and Information Engineering, Lanzhou Jiaotong University)
+**BẢN QUYỀN © 2025** [**HÀ Phi Phàm**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1835.htm) (Tiếng Trung: 何非凡; Tiếng Anh: HE Feifan), [**ĐỖ Vũ**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1837.htm) (Tiếng Trung: 杜宇; Tiếng Anh: DU Yu), [**DƯƠNG Sa Sa**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1836.htm) (Tiếng Trung: 楊莎莎; Tiếng Anh: YANG Shasha), [**Đại Học Giao thông Lan Châu, Học Viện Điện Tử Và Công Nghệ Thông Tin**](https://dxxy.lzjtu.edu.cn/) (Tiếng Trung: 蘭州交通大學電子與信息工程學院; Tiếng Anh: School of Electronic and Information Engineering, Lanzhou Jiaotong University)
