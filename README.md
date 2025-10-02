@@ -1,58 +1,48 @@
 # VibCogTriNet
 
-[**简体中文**](./README.md) | [**英语(English)**](./README_EN.md) | [**越南语(Tiếng Việt)**](./README_VN.md)
+[**繁體中文**](./README.md) | [**英語(English)**](./README_EN.md) | [**越南語(Tiếng Việt)**](./README_VN.md)
 
-VibCogTriNet是一个可接受轴承振动波形而进行轴承故障检测的深度学习模型，模型基于轴承振动波形时域、频域、统计学三路融合特征，综合断定轴承故障类型。该模型及其设计方案已用于参加2025年华为杯研究生数学建模大赛，训练该模型所使用的数据集全部由大赛官方提供。
+VibCogTriNet是一個可接受軸承振動波形而進行軸承故障檢測的深度學習模型，模型基於軸承振動波形時域、頻域、統計學三路融合特徵，綜合斷定軸承故障類型。該模型及其設計方案已用於參加2025年華為杯研究生數學建模大賽，訓練該模型所使用的數據集全部由大賽官方提供。
 
------
+---
 
-### **数据处理工作流图：**
+### **數據處理工作流圖：**
 
 <img src="./images/data_processing.svg" style="width: 70%;">
 
------
+---
 
-### **模型架构图：**
+### **模型架構圖：**
 
 <img src="./images/model_architecture.svg" style="width: 92%;">
 
------
+---
 
-### **模型训练损失下降曲线（前42个Epoch为对比学习，后344个Epoch是监督学习）**
+### **模型訓練損失下降曲線（前42個Epoch為對比學習，後344個Epoch是監督學習）**
 
 <img src="./images/training_loss_curve.svg" style="width: 70%;">
 
------
+---
 
-### **模型正向传播梯度范数盒图**
+### **模型正向傳播梯度範數盒圖**
 
-通过梯度归因的方法计算模型内三路特征拼接后输入至全连接分类层的梯度，可以得出这三类特征对模型最后分类效果的“贡献”程度。通过下图可知在测试集上，时域、频域、统计学三路特征在全连接分类器第一层神经网络上的梯度值分布，三路特征在网络上的梯度均大于0，表明它们均对模型最终的分类做出了正面影响。
+通過梯度歸因的方法計算模型內三路特徵拼接後輸入至全連接分類層的梯度，可以得出這三類特徵對模型最後分類效果的「貢獻」程度。通過下圖可知在測試集上，時域、頻域、統計學三路特徵在全連接分類器第一層神經網絡上的梯度值分佈，三路特徵在網絡上的梯度均大於0，表明它們均對模型最終的分類做出了正面影響。
 
 <img src="./images/gradient_attribution_distribution.svg" style="width: 70%;">
 
------
+---
 
-### **消融实验结果：**
+### **消融實驗結果：**
 
-| Model                          | Accuracy   | F1-score     |
-|--------------------------------|------------|--------------|
-| **_VibcogTriNet_**             |**_0.9969_**| **_0.9538_** |
-| VibcogTriNet-no-Transformer    |   0.9812   |    0.9501    |
-| VibcogTriNet-no-SpectrogramCNN |   0.9289   |    0.9001    |
-| VibcogTriNet-no-Stats          |   0.9794   |    0.9444    |
+| Model                          | Accuracy     | F1-score     |
+| ------------------------------ | ------------ | ------------ |
+| ***VibcogTriNet***             | ***0.9969*** | ***0.9538*** |
+| VibcogTriNet-no-Transformer    | 0.9812       | 0.9501       |
+| VibcogTriNet-no-SpectrogramCNN | 0.9289       | 0.9001       |
+| VibcogTriNet-no-Stats          | 0.9794       | 0.9444       |
 
------
+---
 
-### **项目作者**
+### **項目作者**
 
-**Copyright &copy; 2025**
-
-**何非凡** (英语：HE Feifan；越南语：HÀ Phi Phàm)、
-
-**杜宇** (英语：DU Yu；越南语：ĐỖ Vũ)、
-
-**杨莎莎** (英语：YANG Shasha；越南语：DƯƠNG Sa Sa)，
-
-**兰州交通大学电子与信息工程学院** (英语：School of Electronic and Information Engineering, Lanzhou Jiaotong University；越南语：Đại Học Giao thông Lan Châu, Học Viện Điện Tử Và Công Nghệ Thông Tin)
-
-
+**Copyright © 2025** [**何非凡**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1835.htm) (英語：HE Feifan；越南語：HÀ Phi Phàm)、[**杜宇**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1837.htm) (英語：DU Yu；越南語：ĐỖ Vũ)、[**楊莎莎**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1836.htm) (英語：YANG Shasha；越南語：DƯƠNG Sa Sa)，[**蘭州交通大學電子與信息工程學院**](https://dxxy.lzjtu.edu.cn/) (英語：School of Electronic and Information Engineering, Lanzhou Jiaotong University；越南語：Đại Học Giao thông Lan Châu, Học Viện Điện Tử Và Công Nghệ Thông Tin)
