@@ -36,7 +36,7 @@ Bằng phương pháp quy kết gradient, ta tính toán gradient tại tầng k
 
 | Mô hình                        | Accuracy     | F1-score     |
 | ------------------------------ | ------------ | ------------ |
-| ***VibcogTriNet***             | ***0.9969*** | ***0.9538*** |
+| _**VibcogTriNet**_             | _**0.9969**_ | _**0.9538**_ |
 | VibcogTriNet-no-Transformer    | 0.9812       | 0.9501       |
 | VibcogTriNet-no-SpectrogramCNN | 0.9289       | 0.9001       |
 | VibcogTriNet-no-Stats          | 0.9794       | 0.9444       |
