@@ -36,7 +36,7 @@ VibCogTriNet是一個可接受軸承振動波形而進行軸承故障檢測的�
 
 | Model                          | Accuracy     | F1-score     |
 | ------------------------------ | ------------ | ------------ |
-| ***VibcogTriNet***             | ***0.9969*** | ***0.9538*** |
+| _**VibcogTriNet**_             | _**0.9969**_ | _**0.9538**_ |
 | VibcogTriNet-no-Transformer    | 0.9812       | 0.9501       |
 | VibcogTriNet-no-SpectrogramCNN | 0.9289       | 0.9001       |
 | VibcogTriNet-no-Stats          | 0.9794       | 0.9444       |
