@@ -1,6 +1,6 @@
 # VibCogTriNet
 
-[**Chinese Traditional(繁體中文)**](./README.md) | [**English**](./README_EN.md) | [**Vietnamese(Tiếng Việt)**](./README_VN.md)
+[**Chinese Traditional(繁體中文)**](./README.md) | [**English**](./README.en.md) | [**Vietnamese(Tiếng Việt)**](./README.vi.md)
 
 VibCogTriNet is a deep learning model designed for bearing fault detection based on vibration waveforms. The model integrates **time-domain**, **frequency-domain**, and **statistical features** of bearing vibration signals, and makes a comprehensive judgment on the type of fault. This model and its design scheme were used in the **2025 Huawei Cup Graduate Mathematical Modeling Contest**. All datasets used for model training were officially provided by the competition organizers.
 
@@ -45,5 +45,5 @@ By applying gradient attribution methods, the gradients of the concatenated thre
 
 ### **Project Authors**
 
-**Copyright © 2025** [**HE Feifan**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1835.htm) (Chinese: 何非凡; Vietnamese: HÀ Phi Phàm), [**DU Yu**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1837.htm) (Chinese: 杜宇; Vietnamese: ĐỖ Vũ), [**YANG Shasha**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1836.htm) (Chinese: 楊莎莎; Vietnamese: DƯƠNG Sa Sa), [**School of Electronic and Information Engineering, Lanzhou Jiaotong University**](https://dxxy.lzjtu.edu.cn/) (Chinese: 蘭州交通大學電子與信息工程學院; Vietnamese: Đại Học Giao thông Lan Châu, Học Viện Điện Tử Và Công Nghệ Thông Tin)
+**Copyright &copy; 2025** [**HE Feifan**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1835.htm) (Chinese: 何非凡; Vietnamese: HÀ Phi Phàm), [**DU Yu**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1837.htm) (Chinese: 杜宇; Vietnamese: ĐỖ Vũ), [**YANG Shasha**](https://faculty.lzjtu.edu.cn/chenmei/zh_CN/xsxx/2554/content/1836.htm) (Chinese: 楊莎莎; Vietnamese: DƯƠNG Sa Sa), [**School of Electronic and Information Engineering, Lanzhou Jiaotong University**](https://dxxy.lzjtu.edu.cn/) (Chinese: 蘭州交通大學電子與信息工程學院; Vietnamese: Đại Học Giao thông Lan Châu, Học Viện Điện Tử Và Công Nghệ Thông Tin)
 
